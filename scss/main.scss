@@ -92,6 +92,10 @@ main {
         grid-area: bio;
         font-size: 1.5rem;
     }
+
+    .subheading {
+        width: 100%;
+    }
     
     .school-1 {
         grid-area: school1;
@@ -109,6 +113,10 @@ main {
         background: lighten($primary-color, 5);
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
+
+        h3{
+            height: 3rem;
+        }
     }
 }
 

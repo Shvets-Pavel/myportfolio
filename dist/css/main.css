@@ -166,6 +166,8 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+  .about-info .subheading {
+    width: 100%; }
   .about-info .school-1 {
     grid-area: school1; }
   .about-info .school-2 {
@@ -176,6 +178,8 @@ main {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+    .about-info .school h3 {
+      height: 3rem; }
 
 .projects {
   display: grid;
